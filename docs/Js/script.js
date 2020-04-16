@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const civShield = document.querySelector(".civShield");
         civShield.style.display = "flex";
 
-        const api = `AgeII_Infographic/tree/master/docs/data/Civs.json`;
+        const api = `https://raw.githubusercontent.com/Lighting-Sun/AgeII_Infographic/master/docs/data/Civs.json`;
 
         fetch(api,{'mode': 'no-cors','headers': {
             'Access-Control-Allow-Origin': 'https://lighting-sun.github.io',
