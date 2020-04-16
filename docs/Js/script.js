@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
             'Access-Control-Allow-Origin': 'https://lighting-sun.github.io',
         }})
             .then(respuesta => respuesta.text())
-            .then(datos => imprimirHtml(datos.civilizations[thisId]));
+            .then(text => console.log(text))
+            // .then(datos => imprimirHtml(datos.civilizations[thisId]));
     
     }
 
