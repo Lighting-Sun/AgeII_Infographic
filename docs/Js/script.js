@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const api = `AgeII_Infographic/tree/master/docs/data/Civs.json`;
 
         fetch(api,{'mode': 'no-cors','headers': {
-            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Origin': 'https://lighting-sun.github.io',
         }})
             .then(respuesta => respuesta.json())
             .then(datos => imprimirHtml(datos.civilizations[thisId]));
