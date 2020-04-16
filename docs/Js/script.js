@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         fetch(api,{'mode': 'no-cors','headers': {
             'Access-Control-Allow-Origin': 'https://lighting-sun.github.io',
         }})
-            .then(respuesta => respuesta.json())
+            .then(respuesta => respuesta.text())
             .then(datos => imprimirHtml(datos.civilizations[thisId]));
     
     }
