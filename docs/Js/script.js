@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const api = `https://raw.githubusercontent.com/Lighting-Sun/AgeII_Infographic/master/docs/data/Civs.json`;
 
-        fetch(api,{'mode': 'no-cors','headers': {
+        fetch(api,{'mode': 'cors','headers': {
             'Access-Control-Allow-Origin': 'https://lighting-sun.github.io',
             'Accept': 'application/json',
             'Content-Type': 'application/json; charset=utf-8'
