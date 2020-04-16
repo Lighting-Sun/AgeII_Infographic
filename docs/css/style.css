@@ -1,0 +1,478 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+span.fw_700{
+  font-weight: 700;
+}
+
+div.pageTitle{
+  display: none;
+}
+
+div.logoAge{
+  position: absolute;
+  left: 1%;
+  top: 3%;
+
+  width: 20%;
+  height: 25%;
+  /* height: 400px; */
+  overflow: visible;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../images/DetailBackground/title_stacked.png);
+}
+
+div.mapa {
+  width: 100%;
+  top: 5rem;
+  margin: 0;  
+  position: relative;
+  background: url(../images/Maps/cam_overview_bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  transform: scale(1.2);
+}
+
+img.mapaActual{
+  width: 100%;
+  object-fit: cover;
+}
+
+div.iconoCiv  {
+  max-width: 3.5%;
+  position: absolute;
+}
+
+div.iconoCiv:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+div.iconoCiv img{
+  max-width: 100%;
+}
+
+div.civDetails {
+  display: none;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.2;
+  position: absolute;
+  max-width: 45%;
+  padding: 5rem 7rem;
+  /* border: 5rem double black; */
+  border-style: solid;
+  border-image-source: url(../images/DetailBackground/borders.png);
+  border-image-slice: 35% fill;
+  border-image-repeat: repeat;
+  border-image-width: 5rem;
+
+  bottom: 0;
+}
+
+div.civDetails ul{
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+div.america, div.asia, div.africa {
+
+  display: none;
+}
+
+div.civShield{
+ 
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-right: 5rem;
+  padding-top: 0.5rem;
+  
+  display: none;
+  align-items: center;
+  border-style: solid;
+  border-image-source: url(../images/DetailBackground/borders.png);
+  border-image-slice: 35% fill;
+  border-image-repeat: repeat;
+  border-image-width: 5rem;
+}
+
+div.soundButton, div.noSoundButton{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 3vh;
+  right: 2vw;
+}
+
+img#imageSound, img#imageNoSound{
+  width: 100%;
+  object-fit: cover;
+}
+
+div.soundButton:hover, div.noSoundButton:hover{
+cursor: pointer;
+}
+
+div.noSoundButton {
+  display: none;
+}
+
+
+div.soundButton{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 3vh;
+  right: 2vw;
+  object-fit: cover;
+  
+}
+
+
+
+div#africa{
+  position: absolute;
+  left: 77.3%;
+  top: 46%;
+    
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: visible;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../images/bookmarks/yellow_normal.png);
+}
+
+div#africa:hover{
+  background-image: url(../images/bookmarks/yellow_hover.png);
+}
+
+div#america{
+  position: absolute;
+  left: 75.5%;
+  top: 58%;
+    
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: visible;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../images/bookmarks/green_normal.png);
+}
+
+div#america:hover{
+  background-image: url(../images/bookmarks/green_hover.png);
+}
+
+div#asia{
+  position: absolute;
+  left: 73.6%;
+  top: 70%;
+    
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: visible;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../images/bookmarks/blue_normal.png);
+}
+
+div#asia:hover{
+  background-image: url(../images/bookmarks/blue_hover.png);
+}
+
+div#europe{
+  position: absolute;
+  left: 71.8%;
+  top: 82%;
+    
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: visible;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../images/bookmarks/red_normal.png);
+}
+
+div#europe:hover{
+  background-image: url(../images/bookmarks/red_hover.png);
+}
+
+div.bookmark{
+  font-weight: bold;
+  cursor: pointer;
+  width: 10%;
+  height: 15%;
+}
+
+div.bookmark p{
+
+  transform: rotate(15deg);
+}
+
+
+/* CIVS EUROPEAS */
+
+
+[id="2"] {
+  position: absolute;
+  top: 25%;
+  left: 38%;
+}
+
+
+[id="3"] {
+  position: absolute;
+  top: 67%;
+  left: 60%;
+}
+
+[id="5"] {
+  position: absolute;
+  top: 76%;
+  left: 62%;
+}
+
+[id="6"] {
+  position: absolute;
+  top: 10%;
+  left: 38.5%;
+}
+
+[id="10"] {
+  position: absolute;
+  top: 44%;
+  left: 40%;
+}
+
+[id="11"] {
+  position: absolute;
+  top: 46%;
+  left: 49%;
+}
+
+[id="12"] {
+  position: absolute;
+  top: 56%;
+  left: 58%;
+}
+
+[id="15"] {
+  position: absolute;
+  top: 63%;
+  left: 47%;
+}
+
+[id="19"] {
+  position: absolute;
+  top: 31%;
+  left: 61%;
+}
+
+[id="20"] {
+  position: absolute;
+  top: 49%;
+  left: 54%;
+}
+
+[id="26"] {
+  position: absolute;
+  top: 52%;
+  left: 26%;
+}
+
+[id="28"] {
+  position: absolute;
+  top: 44%;
+  left: 67%;
+}
+
+[id="29"] {
+  position: absolute;
+  top: 57%;
+  left: 30%;
+}
+
+[id="30"] {
+  position: absolute;
+  top: 69%;
+  left: 69%;
+}
+
+[id="31"] {
+  position: absolute;
+  top: 35%;
+  left: 55%;
+}
+
+[id="34"] {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+}
+
+/* CIVS EUROPEAS */
+
+/* CIVS AMERICAS */
+
+[id="0"] {
+  position: absolute;
+  top: 44%;
+  left: 37%;
+}
+
+[id="13"] {
+  position: absolute;
+  top: 78%;
+  left: 60%;
+}
+
+[id="23"] {
+  position: absolute;
+  top: 40%;
+  left: 41%;
+}
+
+/* CIVS AMERICAS */
+
+/* CIVS AFRICA */
+
+[id="1"] {
+  position: absolute;
+  top: 20%;
+  left: 42%;
+}
+
+[id="9"] {
+  position: absolute;
+  top: 64%;
+  left: 59%;
+}
+
+[id="22"] {
+  position: absolute;
+  top: 34%;
+  left: 37%;
+}
+
+[id="25"] {
+  position: absolute;
+  top: 39%;
+  left: 72%;
+}
+
+[id="27"] {
+  position: absolute;
+  top: 36%;
+  left: 61.5%;
+}
+
+[id="32"] {
+  position: absolute;
+  top: 27%;
+  left: 60%;
+}
+
+/* CIVS AFRICA */
+
+/* CIVS ASIA */
+
+[id="4"] {
+  position: absolute;
+  top: 48%;
+  left: 52%;
+}
+
+[id="7"] {
+  position: absolute;
+  top: 38%;
+  left: 61.5%;
+}
+
+[id="8"] {
+  position: absolute;
+  top: 21%;
+  left: 36%;
+}
+
+[id="14"] {
+  position: absolute;
+  top: 44%;
+  left: 43%;
+}
+
+[id="16"] {
+  position: absolute;
+  top: 34%;
+  left: 72%;
+}
+
+[id="17"] {
+  position: absolute;
+  top: 55.5%;
+  left: 54.5%;
+}
+
+[id="18"] {
+  position: absolute;
+  top: 30%;
+  left: 66%;
+}
+
+[id="21"] {
+  position: absolute;
+  top: 68%;
+  left: 54%;
+}
+
+[id="24"] {
+  position: absolute;
+  top: 28%;
+  left: 56%;
+}
+
+/* CIVS ASIA */
