@@ -1,4 +1,4 @@
-  const repoLink = "https://github.com/Lighting-Sun/AgeII_Infographic/tree/master/docs";
+
 
     var civilizations = [
       {
@@ -19,8 +19,8 @@
           "+5 Monk hit points for each Monastery technology.",
           "Loom free."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_aztecs.png",
-        "Sound": repoLink +"/sound/civTheme__Pista1.mp3"
+        "Shield": "images/Civs/menu_techtree_aztecs.png",
+        "Sound": "sound/civTheme__Pista1.mp3"
       },
       {
         "id": 2,
@@ -40,8 +40,8 @@
           "Stable units are 15%/20% cheaper in the Castle/Imperial Age.",
           "Ships move +10% faster."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_berber.png",
-        "Sound": repoLink +"/sound/civTheme__Pista2.mp3"
+        "Shield": "images/Civs/menu_techtree_berber.png",
+        "Sound": "sound/civTheme__Pista2.mp3"
       },
       {
         "id": 3,
@@ -60,8 +60,8 @@
           "Foot archers (excluding Skirmishers) have +1 range in Castle Age and +1 in Imperial Age (for +2 total)",
           "Shepherds work 25% faster"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_britons.png",
-        "Sound": repoLink +"/sound/civTheme__Pista3.mp3"
+        "Shield": "images/Civs/menu_techtree_britons.png",
+        "Sound": "sound/civTheme__Pista3.mp3"
       },
       {
         "id": 4,
@@ -80,8 +80,8 @@
           "Town Centers cost -50% stone.",
           "Can build Krepost."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_bulgarians.png",
-        "Sound": repoLink +"/sound/civTheme__Pista4.mp3"
+        "Shield": "images/Civs/menu_techtree_bulgarians.png",
+        "Sound": "sound/civTheme__Pista4.mp3"
       },
       {
         "id": 5,
@@ -100,8 +100,8 @@
           "Infantry has +1/+2/+3 attack in the Feudal/Castle/Imperial Age.",
           "Monastery technologies are 50% cheaper."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_burmese.png",
-        "Sound": repoLink +"/sound/civTheme__Pista5.mp3"
+        "Shield": "images/Civs/menu_techtree_burmese.png",
+        "Sound": "sound/civTheme__Pista5.mp3"
       },
       {
         "id": 6,
@@ -122,8 +122,8 @@
           "Imperial Age costs -33%",
           "Town Watch is free"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_byzantines.png",
-        "Sound": repoLink +"/sound/civTheme__Pista6.mp3"
+        "Shield": "images/Civs/menu_techtree_byzantines.png",
+        "Sound": "sound/civTheme__Pista6.mp3"
       },
       {
         "id": 7,
@@ -143,8 +143,8 @@
           "Siege weapons reload 20% faster",
           "Sheep cannot be stolen if within one Celt unit's line of sight"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_celts.png",
-        "Sound": repoLink +"/sound/civTheme__Pista7.mp3"
+        "Shield": "images/Civs/menu_techtree_celts.png",
+        "Sound": "sound/civTheme__Pista7.mp3"
       },
       {
         "id": 8,
@@ -164,8 +164,8 @@
           "Town Centers support 10 population instead of 5",
           "Demolition Ships have +50% HP"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_chinese.png",
-        "Sound": repoLink +"/sound/civTheme__Pista8.mp3"
+        "Shield": "images/Civs/menu_techtree_chinese.png",
+        "Sound": "sound/civTheme__Pista8.mp3"
       },
       {
         "id": 9,
@@ -184,8 +184,8 @@
           "Siege Workshops and Battering Ram/Capped Ram available in the Feudal/Castle Age.",
           "Cavalry move 5% faster in the Feudal Age, 10% faster in the Castle Age, and 15% faster in the Imperial Age."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_cumans.png",
-        "Sound": repoLink +"/sound/civTheme__Pista9.mp3"
+        "Shield": "images/Civs/menu_techtree_cumans.png",
+        "Sound": "sound/civTheme__Pista9.mp3"
       },
       {
         "id": 10,
@@ -204,8 +204,8 @@
           "Receive +100 food and +100 gold whenever a new Age is reached.",
           "The Pikeman upgrade is free."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_ethiopians.png",
-        "Sound": repoLink +"/sound/civTheme__Pista10.mp3"
+        "Shield": "images/Civs/menu_techtree_ethiopians.png",
+        "Sound": "sound/civTheme__Pista10.mp3"
       },
       {
         "id": 11,
@@ -224,8 +224,8 @@
           "Knights have +20% HP",
           "Farm upgrades are free (Mill is required to receive bonus)"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_franks.png",
-        "Sound": repoLink +"/sound/civTheme__Pista11.mp3"
+        "Shield": "images/Civs/menu_techtree_franks.png",
+        "Sound": "sound/civTheme__Pista11.mp3"
       },
       {
         "id": 12,
@@ -247,8 +247,8 @@
           "Hunters carry +15 meat",
           "+10 to population limit in Imperial Age"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_goths.png",
-        "Sound": repoLink +"/sound/civTheme__Pista12.mp3"
+        "Shield": "images/Civs/menu_techtree_goths.png",
+        "Sound": "sound/civTheme__Pista12.mp3"
       },
       {
         "id": 13,
@@ -268,8 +268,8 @@
           "Cavalry Archers cost -25% in Castle Age/ -30% in Imperial Age",
           "Trebuchets are 35% more accurate."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_huns.png",
-        "Sound": repoLink +"/sound/civTheme__Pista13.mp3"
+        "Shield": "images/Civs/menu_techtree_huns.png",
+        "Sound": "sound/civTheme__Pista13.mp3"
       },
       {
         "id": 14,
@@ -291,8 +291,8 @@
           "Houses support 10 population.",
           "Buildings cost -15% stone."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_inca.png",
-        "Sound": repoLink +"/sound/civTheme__Pista14.mp3"
+        "Shield": "images/Civs/menu_techtree_inca.png",
+        "Sound": "sound/civTheme__Pista14.mp3"
       },
       {
         "id": 15,
@@ -313,8 +313,8 @@
           "Villagers benefit from Blacksmith infantry upgrades.",
           "Camel Riders have +1 pierce armor."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_indians.png",
-        "Sound": repoLink +"/sound/civTheme__Pista15.mp3"
+        "Shield": "images/Civs/menu_techtree_indians.png",
+        "Sound": "sound/civTheme__Pista15.mp3"
       },
       {
         "id": 16,
@@ -335,8 +335,8 @@
           "Fishing Ships are 20% cheaper.",
           "Gunpowder units are 20% cheaper."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_italians.png",
-        "Sound": repoLink +"/sound/civTheme__Pista16.mp3"
+        "Shield": "images/Civs/menu_techtree_italians.png",
+        "Sound": "sound/civTheme__Pista16.mp3"
       },
       {
         "id": 17,
@@ -356,8 +356,8 @@
           "Lumber Camps / Mining Camps / Mills are 50% cheaper",
           "Infantry attack 25% faster (starting in Feudal Age)"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_japanese.png",
-        "Sound": repoLink +"/sound/civTheme__Pista17.mp3"
+        "Shield": "images/Civs/menu_techtree_japanese.png",
+        "Sound": "sound/civTheme__Pista17.mp3"
       },
       {
         "id": 18,
@@ -377,8 +377,8 @@
           "Khmer Villagers drop off food from farms (1 unit at a time) without needing a drop site.",
           "Villagers can garrison in Houses."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_khmer.png",
-        "Sound": repoLink +"/sound/civTheme__Pista18.mp3"
+        "Shield": "images/Civs/menu_techtree_khmer.png",
+        "Sound": "sound/civTheme__Pista18.mp3"
       },
       {
         "id": 19,
@@ -399,8 +399,8 @@
           "Guard Tower and Keep upgrades are free",
           "Towers (except bombard towers) have +1 range in Castle Age/ +2 in Imperial Age"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_koreans.png",
-        "Sound": repoLink +"/sound/civTheme__Pista19.mp3"
+        "Shield": "images/Civs/menu_techtree_koreans.png",
+        "Sound": "sound/civTheme__Pista19.mp3"
       },
       {
         "id": 20,
@@ -419,8 +419,8 @@
           "Spearman-line and Skirmishers move 10% faster.",
           "Each garrisoned Relic gives +1 attack to Knights and Leitis (maximum +4)."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_lithuanians.png",
-        "Sound": repoLink +"/sound/civTheme__Pista20.mp3"
+        "Shield": "images/Civs/menu_techtree_lithuanians.png",
+        "Sound": "sound/civTheme__Pista20.mp3"
       },
       {
         "id": 21,
@@ -439,8 +439,8 @@
           "Scout Cavalry line is 15% cheaper.",
           "Villagers kill wild animals in one strike."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_magyars.png",
-        "Sound": repoLink +"/sound/civTheme__Pista21.mp3"
+        "Shield": "images/Civs/menu_techtree_magyars.png",
+        "Sound": "sound/civTheme__Pista21.mp3"
       },
       {
         "id": 22,
@@ -460,8 +460,8 @@
           "Fish Traps provide unlimited food.",
           "Battle Elephants are 30% cheaper."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_malay.png",
-        "Sound": repoLink +"/sound/civTheme__Pista22.mp3"
+        "Shield": "images/Civs/menu_techtree_malay.png",
+        "Sound": "sound/civTheme__Pista22.mp3"
       },
       {
         "id": 23,
@@ -480,8 +480,8 @@
           "Barracks units have +1/+2/+3 pierce armor in the Feudal/Castle/Imperial Age.",
           "Gold Mining is free."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_malians.png",
-        "Sound": repoLink +"/sound/civTheme__Pista23.mp3"
+        "Shield": "images/Civs/menu_techtree_malians.png",
+        "Sound": "sound/civTheme__Pista23.mp3"
       },
       {
         "id": 24,
@@ -500,8 +500,8 @@
           "Natural resources last 20% longer",
           "Archers cost -10% in Feudal Age/ -20% in Castle Age/ -30% in Imperial Age"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_mayans.png",
-        "Sound": repoLink +"/sound/civTheme__Pista24.mp3"
+        "Shield": "images/Civs/menu_techtree_mayans.png",
+        "Sound": "sound/civTheme__Pista24.mp3"
       },
       {
         "id": 25,
@@ -520,8 +520,8 @@
           "Light Cavalry and Hussars have +30% HP",
           "Hunters work 50% faster"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_mongols.png",
-        "Sound": repoLink +"/sound/civTheme__Pista25.mp3"
+        "Shield": "images/Civs/menu_techtree_mongols.png",
+        "Sound": "sound/civTheme__Pista25.mp3"
       },      
       {
         "id": 26,
@@ -540,8 +540,8 @@
           "Town Center and Docks have 2x HP",
           "Town Centers and Docks operate +10% faster in Feudal Age/ +15% in Castle Age/ +20% in Imperial Age"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_persians.png",
-        "Sound": repoLink +"/sound/civTheme__Pista26.mp3"
+        "Shield": "images/Civs/menu_techtree_persians.png",
+        "Sound": "sound/civTheme__Pista26.mp3"
       },
       {
         "id": 27,
@@ -561,8 +561,8 @@
           "All ships have +10% HP.",
           "The Feitoria becomes available for building in the Imperial Age."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_portuguese.png",
-        "Sound": repoLink +"/sound/civTheme__Pista27.mp3"
+        "Shield": "images/Civs/menu_techtree_portuguese.png",
+        "Sound": "sound/civTheme__Pista27.mp3"
       },
       {
         "id": 28,
@@ -582,8 +582,8 @@
           "Galleys attack 20% faster",
           "Cavalry Archers have +4 attack bonus against buildings"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_saracens.png",
-        "Sound": repoLink +"/sound/civTheme__Pista28.mp3"
+        "Shield": "images/Civs/menu_techtree_saracens.png",
+        "Sound": "sound/civTheme__Pista28.mp3"
       },
       {
         "id": 29,
@@ -602,8 +602,8 @@
           "Tracking is free. Since the Definitve Edition, Supplies is free.",
           "Siege Workshop units are 15% cheaper."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_slavs.png",
-        "Sound": repoLink +"/sound/civTheme__Pista29.mp3"
+        "Shield": "images/Civs/menu_techtree_slavs.png",
+        "Sound": "sound/civTheme__Pista29.mp3"
       },
       {
         "id": 30,
@@ -624,8 +624,8 @@
           "Cannon Galleons benefit from Ballistics (less reload time and more accuracy)",
           "Hand Cannoneers and Bombard Cannons reload 15% faster"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_spanish.png",
-        "Sound": repoLink +"/sound/civTheme__Pista30.mp3"
+        "Shield": "images/Civs/menu_techtree_spanish.png",
+        "Sound": "sound/civTheme__Pista30.mp3"
       },
       {
         "id": 31,
@@ -646,8 +646,8 @@
           "Thumb Ring is free.",
           "Parthian Tactics is free."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_tatars.png",
-        "Sound": repoLink +"/sound/civTheme__Pista31.mp3"
+        "Shield": "images/Civs/menu_techtree_tatars.png",
+        "Sound": "sound/civTheme__Pista31.mp3"
       },
       {
         "id": 32,
@@ -668,8 +668,8 @@
           "Farms cost 33% less",
           "Town Centers have +1 attack and +5 line of sight"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_teutons.png",
-        "Sound": repoLink +"/sound/civTheme__Pista32.mp3"
+        "Shield": "images/Civs/menu_techtree_teutons.png",
+        "Sound": "sound/civTheme__Pista32.mp3"
       },
       {
         "id": 33,
@@ -690,8 +690,8 @@
           "Gold miners work 15% faster",
           "Light Cavalry and Hussar upgrades are free"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_turks.png",
-        "Sound": repoLink +"/sound/civTheme__Pista33.mp3"
+        "Shield": "images/Civs/menu_techtree_turks.png",
+        "Sound": "sound/civTheme__Pista33.mp3"
       },
       {
         "id": 34,
@@ -711,8 +711,8 @@
           "Archery Range units have +20% HP.",
           "Conscription is free."
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_vietnamese.png",
-        "Sound": repoLink +"/sound/civTheme__Pista34.mp3"
+        "Shield": "images/Civs/menu_techtree_vietnamese.png",
+        "Sound": "sound/civTheme__Pista34.mp3"
       },
       {
         "id": 35,
@@ -732,8 +732,8 @@
           "Infantry have +10% HP in Feudal Age/ +15% in Castle Age/ +20% in Imperial Age",
           "Wheelbarrow and Hand Cart are free"
         ],
-        "Shield": repoLink +"/images/Civs/menu_techtree_vikings.png",
-        "Sound": repoLink +"/sound/civTheme__Pista35.mp3"
+        "Shield": "images/Civs/menu_techtree_vikings.png",
+        "Sound": "sound/civTheme__Pista35.mp3"
       }
     ]
 
