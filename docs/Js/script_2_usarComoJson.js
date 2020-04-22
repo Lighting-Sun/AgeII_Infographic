@@ -1,13 +1,7 @@
 
-import {civilizations} from './Civs.js'; 
-
 document.addEventListener("DOMContentLoaded", function() { 
 
-    
-
     "use strict";
-
-       
 
     function obtenerCivs() {
         let thisId = event.currentTarget.id;
@@ -17,13 +11,13 @@ document.addEventListener("DOMContentLoaded", function() {
         const civShield = document.querySelector(".civShield");
         civShield.style.display = "flex";
 
-        // const api = `data/Civs.json`;
-        
-        imprimirHtml(civilizations[thisId]);
+        const api = `data/Civs.json`;
+
+        fetch(api)
+            .then(respuesta => respuesta.json())
+            .then(datos => imprimirHtml(datos.civilizations[thisId]));
     
     }
-    // console.log(civilizations);
-    
 
     function imprimirHtml(datos) {
 
