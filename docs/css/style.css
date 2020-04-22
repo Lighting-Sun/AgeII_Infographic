@@ -103,7 +103,7 @@ div.civDetails {
   border-image-repeat: repeat;
   border-image-width: 5rem;
 
-  bottom: 0;
+  bottom: 0px;
 }
 
 @media (max-width: 1200px) {
@@ -120,7 +120,7 @@ div.civDetails {
     border-image-repeat: repeat;
     border-image-width: 2rem;
   
-    bottom: 0;
+    bottom: 0px;
   }
 }
 
@@ -211,9 +211,9 @@ div.noSoundButton {
 
 div.soundButton{
   position: absolute;
-  width: 50px;
-  height: 50px;
-  bottom: 3vh;
+  width: 3%;
+  height: 3%;
+  bottom: 4vh;
   right: 2vw;
   object-fit: cover;
   
