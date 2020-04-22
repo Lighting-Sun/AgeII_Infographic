@@ -16,8 +16,21 @@ body {
   overflow: hidden;
 }
 
+@media only screen and (orientation:portrait){
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
+}
+
 body::-webkit-scrollbar {
   display: none;
+}
+
+@media (max-width: 1200px) {
+  body::-webkit-scrollbar {
+    display: block;
+  }
 }
 
 span.fw_700{
@@ -93,7 +106,7 @@ div.civDetails {
   bottom: 0;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1200px) {
   div.civDetails {
 
     font-size: 1rem;
@@ -143,7 +156,7 @@ div.civShield{
   border-image-width: 5rem;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1200px) {
   div.civShield{
  
     position: absolute;
@@ -300,7 +313,7 @@ div.bookmark{
   height: 15%;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1200px) {
   div.bookmark{
     font-size: 1rem;
   }
