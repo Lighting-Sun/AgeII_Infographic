@@ -93,6 +93,24 @@ div.civDetails {
   bottom: 0;
 }
 
+@media (max-width: 850px) {
+  div.civDetails {
+
+    font-size: 1rem;
+    line-height: 1.2;
+
+    padding: 1rem 2rem;
+    /* border: 5rem double black; */
+    border-style: solid;
+    border-image-source: url(../images/DetailBackground/borders.png);
+    border-image-slice: 35% fill;
+    border-image-repeat: repeat;
+    border-image-width: 2rem;
+  
+    bottom: 0;
+  }
+}
+
 div.civDetails ul{
 
   padding: 0;
@@ -123,6 +141,37 @@ div.civShield{
   border-image-slice: 35% fill;
   border-image-repeat: repeat;
   border-image-width: 5rem;
+}
+
+@media (max-width: 850px) {
+  div.civShield{
+ 
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    padding: 0rem 1rem 0rem 0rem;
+    
+    max-width: 30%;
+
+    display: none;
+    align-items: center;
+    border-style: solid;
+    border-image-source: url(../images/DetailBackground/borders.png);
+    border-image-slice: 35% fill;
+    border-image-repeat: repeat;
+    border-image-width: 2rem;
+  }
+
+  img#civShieldImg{
+    width: 100%;
+  }
+
+  div.civShieldIcon{
+    width: 50px;
+  }
 }
 
 div.soundButton, div.noSoundButton{
@@ -249,6 +298,12 @@ div.bookmark{
   cursor: pointer;
   width: 10%;
   height: 15%;
+}
+
+@media (max-width: 850px) {
+  div.bookmark{
+    font-size: 1rem;
+  }
 }
 
 div.bookmark p{
